@@ -15,3 +15,7 @@ $ node step13.js
 ## License
 
 Licensed under [AGPL](http://www.gnu.org/licenses/agpl-3.0.html).
+
+## Thanks
+
+[Grégoire Charvet](https://github.com/geekingfrog)
