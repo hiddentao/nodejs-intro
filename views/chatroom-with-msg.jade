@@ -1,0 +1,29 @@
+html
+
+  head
+    link(href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css", rel="stylesheet")
+
+    link(href="/css/styles.css", rel="stylesheet")
+
+  body
+
+    h1 Welcome to the Chatroom!
+
+    div(class="row")
+      div(class="chatbox span7")
+        ul
+      div(class="userlist span2")
+        ul
+
+    div(class="row chatinput")
+      div(class="span10")
+        form
+          label Type here:
+          input(type="text", class="span10")
+
+    script(src="http://code.jquery.com/jquery-1.10.2.min.js", type="text/javascript")
+
+    script(src="/socket.io/socket.io.js", type="text/javascript")
+
+    script(src="/scripts/chatroom-with-msg.js", type="text/javascript")
+
