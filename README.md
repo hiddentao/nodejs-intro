@@ -4,15 +4,11 @@ This workshop will be (or by now has been) given at the [Taipei Javascript Enthu
 
 ## How to use
 
-To install the dependencies:
+Each step of the workshop is in its own folder, starting from the very basics (step1) to forms, routes, websockets (step10 and beyond).
 
-$ npm install
+To run a step use `node index.js` in the step folder.
 
-To run each step of the workshop:
-
-$ node step1.js
-$ ...
-$ node step13.js
+For steps which have a `package.json` file you will need to run `npm install` to ensure all dependencies are installed.
 
 ## License
 
